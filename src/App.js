@@ -9,18 +9,6 @@ import { CSSTransition } from "react-transition-group";
 import { connect } from "react-redux";
 
 const App = ({ contacts }) => {
-  // componentDidUpdate(prevProps, prevState) {
-  //   if (prevState.contacts !== this.state.contacts) {
-  //     localStorage.setItem("contacts", JSON.stringify(this.state.contacts));
-  //   }
-  // }
-  // componentDidMount() {
-  //   const localStItems = localStorage.getItem("contacts");
-  //   if (localStItems) {
-  //     this.setState({ contacts: JSON.parse(localStItems) });
-  //   }
-  // }
-
   return (
     <Layout>
       <AppHeader />
